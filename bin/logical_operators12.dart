@@ -8,7 +8,7 @@ Given a two-digit integer a,  check the following statement "All digits of the n
         bool: answer
 */
 bool func(int a) {
-  return a ~/ 10 == a % 10;
+  return a %10 == a % 10;
 }
 
 void main() {
